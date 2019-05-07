@@ -1,3 +1,5 @@
 *.o
-*
-!Makefile
+.main.c.swp
+.gitkeep
+chess.c
+main
