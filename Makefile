@@ -10,6 +10,7 @@ main: ./build/main.o ./build/board.o ./build/board_print_plain.o
 ./build/board.o: ./src/board.c
 	gcc -o ./build/board.o -c ./src/board.c
 
+.PHONY: clean
 
 run:
 	./bin/main
