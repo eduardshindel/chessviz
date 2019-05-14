@@ -17,13 +17,10 @@ int main()
 {
     int status = 0;
 
-    printf("     Шахматы\n");
-    printf("Пример обычного хода: E2-E4\n");
-
     printdesk();
 
     while (1) {
-        printf("Белые (Большие буквы):");
+        printf("Большие буквы ходят: ");
         scanan(1);
         move();
         printdesk();
@@ -32,7 +29,7 @@ int main()
             break;
         }
 
-        printf("Черные (Маленькие буквы):");
+        printf("Маленькие буквы ходят: ");
         scanan(2);
         move();
         printdesk();
@@ -42,7 +39,7 @@ int main()
         }
     }
 
-    printf("Игрок %d выиграл\n", status);
+    printf("Игрок %d победил\n", status);
 
     return 0;
 }
