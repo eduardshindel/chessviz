@@ -9,6 +9,7 @@ build/src/main.o: src/main.c
 build/src/board_print_plain.o: src/board_print_plain.c
 	gcc -Wall -Werror -c src/board_print_plain.c -o build/src/board_print_plain.o
 
+<<<<<<< HEAD
 build/src/board.o: src/board.c
 	gcc -Wall -Werror -c src/board.c -o build/src/board.o
 
