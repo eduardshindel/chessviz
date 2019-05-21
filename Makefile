@@ -25,6 +25,7 @@ build/test/test.o: test/test.c
 	gcc -I thirdparty -Wall -Werror -c test/test.c -o build/test/test.o
 
 run:
+	bin/chessviz-test
 	bin/chessviz
 
 .PHONY: clean

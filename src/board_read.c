@@ -13,20 +13,20 @@ void scan(int flag)
             if (chartoint(input)) {
                 break;
             }
-            printf("                           Введите заново:");
+            printf("Ошибка! Так ходить нельзя! Введите заново: ");
         }
         if (flag == 1) {
             if (white() == 1) {
                 break;
             } else {
-                printf("                           Введите заново:");
+                printf("Ошибка! Так ходить нельзя! Введите заново: ");
             }
         }
         if (flag == 2) {
             if (black() == 1) {
                 break;
             } else {
-                printf("                           Введите заново:");
+                printf("Ошибка! Так ходить нельзя! Введите заново:");
             }
         }
     }

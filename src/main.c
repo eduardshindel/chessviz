@@ -21,18 +21,20 @@ int main()
     printboard();
 
     while (1) {
-        printf("Белые (Большие буквы):");
+        printf("Большие буквы ходят: ");
         scan(1);
         move();
+        system("clear");
         printboard();
         status = checkWIn(1);
         if (status != 0) {
             break;
         }
 
-        printf("Черные (Маленькие буквы):");
+        printf("Маленькие буквы ходят: ");
         scan(2);
         move();
+        system("clear");
         printboard();
         status = checkWIn(2);
         if (status != 0) {
@@ -40,7 +42,7 @@ int main()
         }
     }
 
-    printf("                          Игрок %d выиграл!\n", status);
+    printf("Игрок %d выиграл!\n", status);
 
     return 0;
 }

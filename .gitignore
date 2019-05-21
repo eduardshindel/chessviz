@@ -1,4 +1,6 @@
 *.o
 .main.c.swp
 main
+chessviz
+chessviz-test
 .gitkeep
