@@ -2,6 +2,7 @@
 #include "board_print_plain.h"
 #include "board_read.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 char input[7];
 int X1, X2, Y1, Y2;
